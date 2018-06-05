@@ -1,9 +1,16 @@
+
+
+
 body {
 	background-color:#fffaf0; 
 	background-image:url('../assets/images/bimage.jpg');
 	background-repeat: no-repeat;
 	background-size:cover;
 
+}
+
+.content {
+	min-height:90vh;
 }
 
 
@@ -123,10 +130,10 @@ h3:hover {
 
 /* footer */
 
-footer{
-
-	margin-top:100px;
-	padding:20px 30px 40px 30px;
+.basDePage{
+  
+	width:100%;
+	padding:20px 30px 100px 40px;
 
 	color:white;
 	background-color:#676767;
